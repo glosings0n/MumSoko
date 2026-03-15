@@ -83,4 +83,4 @@ This project is private and proprietary. Contact the project owner for licensing
 </div>
 
 ---
-*Built with ❤️ for the Kenyan farmers and consumers.*
+*Built with ❤️ for the DRC farmers and consumers.*
