@@ -1,0 +1,106 @@
+/* src/styles.css */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap');
+
+:root {
+  /* Color Palette - Inspired by Nature & Premium Aesthetic */
+  --primary: #2D5A27;        /* Deep Forest Green */
+  --primary-light: #4A8B3F;
+  --secondary: #F3ECDC;      /* Creamy Sand */
+  --accent: #E87A5D;         /* Earthy Terracotta */
+  --text-dark: #1A2619;
+  --text-muted: #5C6B5B;
+  --white: #FFFFFF;
+  --surface: #F9FBF8;
+  --border: #E2E8E1;
+  
+  /* Transitions */
+  --transition-smooth: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-fast: all 0.2s ease-in-out;
+  
+  /* Spacing */
+  --spacing-xs: 0.5rem;
+  --spacing-sm: 1rem;
+  --spacing-md: 2rem;
+  --spacing-lg: 4rem;
+  --spacing-xl: 6rem;
+  
+  /* Shadows */
+  --shadow-soft: 0 4px 20px rgba(0, 0, 0, 0.05);
+  --shadow-medium: 0 10px 30px rgba(45, 90, 39, 0.1);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Outfit', sans-serif;
+  background-color: var(--surface);
+  color: var(--text-dark);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  transition: var(--transition-fast);
+}
+
+ul {
+  list-style: none;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  background: none;
+  font-family: inherit;
+  transition: var(--transition-smooth);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 var(--spacing-sm);
+}
+
+/* Global Animations */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.fade-in {
+  animation: fadeIn 0.8s ease-out forwards;
+}
+
+/* Fluid Button Style */
+.btn-primary {
+  background: var(--primary);
+  color: var(--white);
+  padding: 0.8rem 2rem;
+  border-radius: 50px;
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  box-shadow: var(--shadow-medium);
+}
+
+.btn-primary:hover {
+  transform: translateY(-3px) scale(1.02);
+  background: var(--primary-light);
+  box-shadow: 0 15px 35px rgba(45, 90, 39, 0.2);
+}
+
+.btn-primary:active {
+  transform: scale(0.98);
+}
