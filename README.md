@@ -2,7 +2,7 @@
 
 MumSoko is a premium, high-performance e-commerce platform dedicated to providing fresh, high-quality vegetables to the Kenyan market. Built with a focus on visual excellence and seamless user experience, MumSoko bridges the gap between local farmers and urban consumers through a modern digital storefront.
 
-![MumSoko Preview](https://via.placeholder.com/1200x600/2E7D32/FFFFFF?text=MumSoko+-+Fresh+Vegetables+at+Your+Doorstep)
+![MumSoko Preview](public/images/readme-preview.png)
 
 ## ✨ Key Features
 
