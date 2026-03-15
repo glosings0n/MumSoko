@@ -10,7 +10,10 @@ import { CartService } from '../../../core/services/cart.service';
     <nav class="navbar">
       <div class="container nav-content">
         <a href="/" class="logo">
-          <span class="logo-text">Mum</span><span class="logo-accent">Soko</span>
+          <img src="images/logo.png" alt="MumSoko Logo" class="logo-img" />
+          <div class="logo-text-wrapper">
+            <span class="logo-text">Mum</span><span class="logo-accent">Soko</span>
+          </div>
         </a>
         
         <div class="nav-links">
@@ -48,6 +51,18 @@ import { CartService } from '../../../core/services/cart.service';
       font-size: 1.8rem;
       font-weight: 800;
       letter-spacing: -1px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .logo-img {
+      height: 40px;
+      width: auto;
+      object-fit: contain;
+    }
+    .logo-text-wrapper {
+      display: flex;
+      align-items: center;
     }
     .logo-text { color: var(--primary); }
     .logo-accent { color: var(--accent); }
