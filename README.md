@@ -1,6 +1,11 @@
 # 🥦 MumSoko
 
-MumSoko is a premium, high-performance e-commerce platform dedicated to providing fresh, high-quality vegetables to the Kenyan market. Built with a focus on visual excellence and seamless user experience, MumSoko bridges the gap between local farmers and urban consumers through a modern digital storefront.
+<div align="center">
+  <img src="public/images/logo.png" alt="MumSoko Logo" width="180" />
+  <h3>Fresh from Farm to Your Doorstep</h3>
+</div>
+
+MumSoko is a premium e-commerce platform dedicated to bridging the gap between Kenyan vegetable farmers and urban consumers. Our brand represents **trust, freshness, and community**. The official logo—a stylized fusion of a fresh leaf and a circular woven basket—symbolizes our commitment to delivering authentic, farm-fresh ingredients through a modern, efficient digital experience.
 
 ![MumSoko Preview](public/images/readme-preview.png)
 
