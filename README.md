@@ -76,4 +76,4 @@ gcloud run deploy mumsoko --source . --project bwai-nairobi-2026 --region us-cen
 This project is private and proprietary. Contact the project owner for licensing information.
 
 ---
-*Built with ❤️ for the Kenyan farmers and consumers.*
+*Built with ❤️ for the DRC farmers and consumers.*
